@@ -1,5 +1,0 @@
-FROM nginx:alpine
-WORKDIR '/app'
-RUN npm run build
-CMD ["nginx", "run", "build"]
-
